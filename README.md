@@ -31,7 +31,7 @@ The following files represent the incremental build-up of the framework, specifi
     * This serves as the raw baseline to demonstrate the instability caused by missing boundary information.
 
 ### 2. Ghost Node Integration
-* **`main_river_ghost.py`** (Ghost + Ghost Proxy)
+* **`main_river_ghost.py`** (Ghost Proxy)
     * Builds on the backbone by adding **Explicit Upstream Ghost Nodes**.
     * Uses an MLP proxy to learn the unobserved boundary forcing from the immediate downstream neighbors.
     * *Note:* No physics refinement is applied here; it only addresses the input deficit.
